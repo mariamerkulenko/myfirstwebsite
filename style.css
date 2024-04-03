@@ -1,0 +1,92 @@
+.child {
+width: 50%; 
+height: 200px; 
+background: lightgreen; 
+position: absolute; 
+bottom: 20px; 
+right: 20px; 
+left: auto; 
+top: auto;
+z-index: 9000;} 
+.parent { 
+width: 80%; 
+background: yellow; 
+margin-left: 10%; 
+margin-top: 50px; 
+position: relative;} 
+.one {
+height: 300px;
+width: 300px;
+background: #820202;
+transition-duration: .5s;
+transform: rotate(0);
+}
+two {
+width: 100px;
+height: 100px;
+background: grey:
+}
+.one:hover {
+transform: rotate(90deg);
+transition-duration: 1s;
+background: blue;
+border-radius: 50%;
+}
+square{
+width: 90px;
+height: 90px;
+margin: 30px auto;
+background-color: #123456;
+animation-name: spin;
+animation-duration: 4s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+{
+@keyframes spin {
+0% {transform: rotate(0deg);} 
+25% {background-color: yellow;}
+100% {transform: rotate(360deg);}
+}
+transform: scale(0.95);
+transition: .3s;
+max-width: 35%;
+inline-img img:hover{ transform: scale(1);}
+.Img { 
+	 width: 200px;
+} 
+.left{
+	float: left;
+ } 
+ .right{ 
+ 	float: right;
+}
+.img-container li { display: inline-block; width: 32%; padding: 10px;
+}
+.img-container{ text-align: center; margin-top:20px; width: 100%;
+}
+img-container img {
+width: 80%; display: inline-block; transition: .25s;
+}
+img-container ul li { list-style-type: none; }
+inline-img {
+width: 250px;
+display: inline-block;
+border-radius: 15px;
+text-align: center;
+}
+multimedia {
+overflow: auto:
+} 
+multimedia-video {
+display: inline-block;
+float: left;
+padding-left: 5px;
+padding-right: 5px;
+width: 33.33%;
+box-sizing: border-box;
+}
+form {
+padding: 15px 0;
+float: right;
+}
